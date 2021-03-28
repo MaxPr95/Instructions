@@ -10,13 +10,13 @@ The following will be installed:
 * MariaDB
 * MySQL Connector for Python3
 
-# Installing MariaDB
+## Installing MariaDB
 Download and install MariaDB
 ```
 sudo apt install mariadb-server
 ```
 
-# Installing MySQL Connector
+## Installing MySQL Connector
 Download and install MySQL-Connector for Python
 ```
 sudo pip3 install mysql-connector-python
