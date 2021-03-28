@@ -26,3 +26,13 @@ Sudo-Befehle aufschreiben.
 ```
 
 ## Get Started
+
+### Access Grafana
+Open a browser tab and go to the IP address with port 3000 to log in.
+
+```
+localhost:3000
+```
+
+### Login
+Username and password are identical and are called ``admin``.
