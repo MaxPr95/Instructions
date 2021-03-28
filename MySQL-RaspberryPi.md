@@ -1,9 +1,8 @@
 # Installing MySQL Database on Raspberry Pi
-These instructions show how to fully install MySQL on the Raspberry Pi for Python:
+These instructions show how to fully install MySQL on the Raspberry Pi:
 
-* Installation of MariaDB
-* Add User
-* Python Connection
+* Installations
+* Adding User
 
 ## Installations
 The following will be installed:
@@ -29,3 +28,19 @@ sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
 ```
 After the change, the file must be saved.
 
+## Adding User for MariaDB
+In order to work with MySQL, a user with a password is assigned. To do this, you first have to log into the database in the terminal. The ``-u`` command stands for user.
+```
+sudo mysql -u
+```
+
+```mysql
+create user ‚pi‘@‚%‘ identified by ‚pi’;
+```
+```mysql
+grant all privileges on *.* to ‚pi‘@‚%‘ with grant option;
+```
+
+```mysql
+flush privileges;
+```
