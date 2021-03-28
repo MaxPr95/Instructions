@@ -24,3 +24,5 @@ After the installation you will be asked to carry out further commands. These ca
 ```
 Sudo-Befehle aufschreiben.
 ```
+
+## Get Started
