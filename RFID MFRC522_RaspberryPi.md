@@ -38,7 +38,7 @@ finally:
     GPIO.cleanup()
 ```
 
-#Write.py
+# Write.py
 The following program can be used to write an RFID tag. To do this, create a Python file with the name Read.py.
 #!/usr/bin/env python
 import RPi.GPIO as GPIO
