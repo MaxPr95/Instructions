@@ -22,9 +22,21 @@ sudo dpkg -i grafana-rpi_7.5.1_armhf.deb
 
 After the installation you will be asked to carry out further commands. These can also be taken directly from the terminal.
 ```
-Sudo-Befehle aufschreiben.
+sudo /bin/systemctl daemon-reload
+```
+```
+sudo /bin/systemctl enable grafana-server
+```
+```
+sudo /bin/systemctl start grafana-server
 ```
 
+To start the service and verify that the service has started
+```
+sudo systemctl daemon-reload
+sudo systemctl start grafana-server
+sudo systemctl status grafana-server
+```
 ## Get Started
 
 ### Access Grafana
