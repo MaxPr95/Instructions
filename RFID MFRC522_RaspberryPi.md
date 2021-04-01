@@ -44,7 +44,7 @@ The following program can be used to write an RFID tag. To do this, create a Pyt
 import RPi.GPIO as GPIO
 from mfrc522 import SimpleMFRC522
 reader = SimpleMFRC522()
-
+```
 try:
     text = input('New data:')
     print("Now place your tag to write")
@@ -52,6 +52,4 @@ try:
     print("written")
 finally:
     GPIO.cleanup()
-```
-
 ```
