@@ -32,7 +32,7 @@ After the change, the file must be saved.
 ## Adding user for MariaDB
 In order to work with MySQL, a user with a password is assigned. To do this, you first have to log into the database in the terminal. The ``-u`` command stands for user.
 ```
-sudo mysql -u
+sudo mysql -u root
 ```
 
 ```mysql
