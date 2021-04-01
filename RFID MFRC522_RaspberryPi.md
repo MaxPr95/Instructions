@@ -21,7 +21,7 @@ Enable SPI in the Raspberry Pi configuration ``raspi-config``. Then select ``Int
 sudo raspi-config
 ```
 
-# Read.py
+## Read.py
 The following program can be used to read an RFID tag. To do this, create a Python file with the name Read.py
 ```
 #!/usr/bin/env python
@@ -38,7 +38,7 @@ finally:
     GPIO.cleanup()
 ```
 
-# Write.py
+## Write.py
 The following program can be used to write an RFID tag. To do this, create a Python file with the name Read.py.
 ```
 #!/usr/bin/env python
