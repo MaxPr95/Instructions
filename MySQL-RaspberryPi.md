@@ -22,14 +22,14 @@ Download and install MySQL-Connector for Python
 sudo pip3 install mysql-connector-python
 ```
 
-## Bind-Adress
+### Bind-Adress
 In order to access the MySQL server from other computers, the bind address must be changed from ``127.0.0.0`` to ``0.0.0.0``. The address is changed in the ``50-server.cnf`` file. The file will open in the terminal.
 ```
 sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
 ```
 After the change, the file must be saved.
 
-## Adding user for MariaDB
+### Adding user for MariaDB
 In order to work with MySQL, a user with a password is assigned. To do this, you first have to log into the database in the terminal. The ``-u`` command stands for user.
 ```
 sudo mysql -u root
