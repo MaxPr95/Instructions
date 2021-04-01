@@ -10,7 +10,9 @@ sudo apt-get update
 sudo apt-get upgrade
 ```
 
-## Installation RFID MFRC522
+## Installation
+
+### Installing RFID MFRC522
 ```
 sudo pip3 install mfrc522
 ```
@@ -22,8 +24,6 @@ Reboot Raspberry Pi
 ```
 sudo reboot
 ```
-
-## Instalation
 
 ### Installing MariaDB
 Download and install MariaDB
